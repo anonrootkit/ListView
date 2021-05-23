@@ -43,7 +43,7 @@ class FragmentOneAdapter(context: Context)
         if (data.isSelected){
             binding.root.setBackgroundColor(Color.LTGRAY)
         }else{
-            binding.root.setBackgroundResource(0)
+            binding.root.setBackgroundColor(0)
         }
 
         binding.root.setOnClickListener {
